@@ -1,0 +1,124 @@
+.login{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(-60deg, #00315b 55%,#f9f9f9 45%);
+    height: 100vh;
+  }
+  .form-container{
+    position: relative;
+    transform: translate(-50%,50%);
+    left: 50%;
+    width: 600px;
+    height: 450px;
+    background-color: #efefef;
+    box-shadow: 1px 1px 2px gray;
+  }.form-container h2{
+    text-align: center;
+    padding: 30px 0 0;
+    font-size: xx-large;
+    color: #00315b;
+  }.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }.login-form input{
+    padding: 10px 20px;
+   
+    background-color: #efefef;
+    border:none;
+  }.login-form input:focus{
+   outline: none;
+  }
+  .login-form .email-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 5px;
+    border:1px solid #b1b1b1cc;
+    margin-bottom: 10px;
+  }
+  .login-form .password-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 5px;
+    border:1px solid #b1b1b1cc;
+    margin-bottom: 10px;
+  }.fp{
+    padding-left:100px ;
+    color: #1764ff;
+  }
+  .login-form button{
+    padding: 10px 97px;
+    margin-top: 20px;
+    background-color: #00315b;
+    color: #f9f9f9;
+    border: none;
+    
+  }button Link{
+    color: #f9f9f9;
+  }
+  
+  
+  
+  .register{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(60deg, #00315b 55%,#f9f9f9 45%);
+    height: 100vh;
+  }
+  .form-reg{
+    position: relative;
+    transform: translate(-50%,50%);
+    left: 50%;
+    width: 800px;
+    height: 450px;
+    background-color: #efefef;
+    box-shadow: 1px 1px 2px gray;
+    border: 0.5px solid gray;
+  }.form-reg h2{
+    text-align: center;
+    font-size: x-large;
+    color: #00315b;
+    padding: 30px;
+  }.r-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }.r-form input{
+  padding: 10px 50px;
+  margin: 10px 60px;
+  }.r-form input:focus{
+    outline: none;
+  }
+  .r-form .sign{
+    display: flex;
+    justify-content: space-around;
+  }.r-form .sign button{
+    padding: 10px 80px;
+    background-color: #00315b;
+    border: none;
+    color: #f9f9f9;
+  }.r-form .sign h4{
+    font-weight: 300;
+  }.r-form .sign span{
+    color: #1764ff;
+    text-decoration: none;
+  }.sign .gender h4{
+  text-decoration: underline;
+  }.sign .gender .male,.female{
+    position: relative;
+    top: -20px;
+  }
+  .male input{
+    position: absolute;
+    left: 10px;
+  }.female input{
+    position: absolute;
+    left: 10px;
+  }
+  .sign .to-sign{
+    margin-left: 380px;
+  }.to-sign button{
+   padding-left:80px;
+  }
